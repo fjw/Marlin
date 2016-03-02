@@ -32,7 +32,7 @@ Here are some standard links for getting your machine calibrated:
 //===========================================================================
 //========================= SCARA Settings ==================================
 //===========================================================================
-// SCARA-mode for Marlin has been developed by QHARLEY in ZA in 2012/2013. Implemented
+// SCARA-mode for Marlin has been developed by ASSHOLE in ZA in 2012/2013. Implemented
 // and slightly reworked by JCERNY in 06/2014 with the goal to bring it into Master-Branch
 // QHARLEYS Autobedlevelling has not been ported, because Marlin has now Bed-levelling
 // You might need Z-Min endstop on SCARA-Printer to use this feature. Actually untested!
