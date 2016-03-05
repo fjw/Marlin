@@ -595,7 +595,7 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the l
 
 
 //todo
-#define DEFAULT_MAX_FEEDRATE          {3400, 3400, 65000, 25}    // (mm/sec)
+#define DEFAULT_MAX_FEEDRATE          {65000, 65000, 65000, 25}    // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {100,100,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 //todo
 
