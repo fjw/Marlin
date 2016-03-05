@@ -583,16 +583,25 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the l
  * MOVEMENT SETTINGS
  */
 
-#define HOMING_FEEDRATE {3000, 3000, 100, 0}  // set the homing speeds (mm/min)
+
 
 // default settings
 
 #define DEFAULT_AXIS_STEPS_PER_UNIT   {320,320,4000,495}  // default steps per unit for Ultimaker
 
+//Marlin vorgabe:
 //#define DEFAULT_MAX_FEEDRATE          {300, 300, 5, 25}    // (mm/sec)
 //#define DEFAULT_MAX_ACCELERATION      {3000,3000,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 
-#define DEFAULT_MAX_FEEDRATE          {11000, 11000, 200, 25}    // (mm/sec)
+//todo: Vorerst mal raus, sattdessen diese vorsichtige config
+//#define DEFAULT_MAX_FEEDRATE          {11000, 11000, 200, 25}    // (mm/sec)
+//#define HOMING_FEEDRATE {3000, 3000, 100, 0}  // set the homing speeds (mm/min)
+
+#define HOMING_FEEDRATE               {3000, 3000, 100, 0}  // set the homing speeds (mm/min)
+
+#define DEFAULT_MAX_FEEDRATE          {6000, 6000, 150, 25}    // (mm/sec)
+
+
 #define DEFAULT_MAX_ACCELERATION      {600,600,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 
 
