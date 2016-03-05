@@ -661,6 +661,9 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the l
 //==============================LCD and SD support=============================
 // @section lcd
 
+//Todo
+ // VORSICHT LCD IST AUSKOMMENTIERT IN MARLIIN.INO UN MARLIN.CPP
+
 // Define your display language below. Replace (en) with your language code and uncomment.
 // en, pl, fr, de, es, ru, bg, it, pt, pt-br, fi, an, nl, ca, eu, kana, kana_utf8, cn, test
 // See also language.h
@@ -739,6 +742,11 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the l
 /**
  * I2C Panels
  */
+
+
+ //Todo
+ // VORSICHT LCD IST AUSKOMMENTIERT IN MARLIIN.INO UN MARLIN.CPP
+
 
 //#define LCD_I2C_SAINSMART_YWROBOT
 

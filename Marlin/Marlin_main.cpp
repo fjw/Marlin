@@ -40,7 +40,7 @@
   #include "mesh_bed_leveling.h"
 #endif
 
-#include "ultralcd.h"
+//#include "ultralcd.h"
 #include "planner.h"
 #include "stepper.h"
 #include "temperature.h"
