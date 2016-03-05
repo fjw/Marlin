@@ -599,7 +599,7 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the l
 
 #define HOMING_FEEDRATE               {3000, 3000, 100, 0}  // set the homing speeds (mm/min)
 
-#define DEFAULT_MAX_FEEDRATE          {6000, 6000, 150, 25}    // (mm/sec)
+#define DEFAULT_MAX_FEEDRATE          {6000 /60, 6000 /60, 150 /60, 25}    // (mm/sec) Immer durch 60, weil F-Wert ist normalerweis pro min. Hier pro sek.
 
 
 #define DEFAULT_MAX_ACCELERATION      {600,600,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
