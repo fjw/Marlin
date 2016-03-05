@@ -662,7 +662,7 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the l
 // @section lcd
 
 //Todo
- // VORSICHT LCD IST AUSKOMMENTIERT IN MARLIIN.INO UN MARLIN.CPP
+ // VORSICHT LCD IST AUSKOMMENTIERT IN MARLIIN.INO
 
 // Define your display language below. Replace (en) with your language code and uncomment.
 // en, pl, fr, de, es, ru, bg, it, pt, pt-br, fi, an, nl, ca, eu, kana, kana_utf8, cn, test
@@ -745,7 +745,7 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the l
 
 
  //Todo
- // VORSICHT LCD IST AUSKOMMENTIERT IN MARLIIN.INO UN MARLIN.CPP
+ // VORSICHT LCD IST AUSKOMMENTIERT IN MARLIIN.INO
 
 
 //#define LCD_I2C_SAINSMART_YWROBOT
