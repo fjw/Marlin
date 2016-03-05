@@ -34,7 +34,7 @@
 #include "pins.h"
 
 
-//todo ULTRALCD und LIQUIDTWI2 auskommentiert
+//todo ULTRALCD und LIQUIDTWI2 und dog un TMC auskommentiert
 
 #if ENABLED(ULTRA_LCD)
   #if ENABLED(LCD_I2C_TYPE_PCF8575)
@@ -60,8 +60,8 @@
 #endif
 
 #if ENABLED(HAVE_TMCDRIVER)
-  #include <SPI.h>
-  #include <TMC26XStepper.h>
+  //#include <SPI.h>
+  //#include <TMC26XStepper.h>
 #endif
 
 #if ENABLED(HAVE_L6470DRIVER)
