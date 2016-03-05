@@ -34,12 +34,12 @@
 #include "pins.h"
 
 
-//todo LCD auskommentiert
-/*
+//todo ULTRALCD auskommentiert
+
 #if ENABLED(ULTRA_LCD)
   #if ENABLED(LCD_I2C_TYPE_PCF8575)
-    #include <Wire.h>
-    #include <LiquidCrystal_I2C.h>
+    //#include <Wire.h>
+    //#include <LiquidCrystal_I2C.h>
   #elif ENABLED(LCD_I2C_TYPE_MCP23017) || ENABLED(LCD_I2C_TYPE_MCP23008)
     #include <Wire.h>
     #include <LiquidTWI2.h>
@@ -49,7 +49,7 @@
     #include <LiquidCrystal.h> // library for character LCD
   #endif
 #endif
-*/
+
 
 #if HAS_DIGIPOTSS
   #include <SPI.h>
