@@ -65,6 +65,6 @@
 #endif
 
 #if ENABLED(HAVE_L6470DRIVER)
-  #include <SPI.h>
-  #include <L6470.h>
+  //#include <SPI.h>
+  //#include <L6470.h>
 #endif
