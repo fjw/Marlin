@@ -209,10 +209,10 @@ Here are some standard links for getting your machine calibrated:
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  // Mein E3D-Lite6
-  #define  DEFAULT_Kp 42.15
+  // Mein E3D-Lite6 (192°C)
+  #define  DEFAULT_Kp 44.61
   #define  DEFAULT_Ki 5.04
-  #define  DEFAULT_Kd 88.04
+  #define  DEFAULT_Kd 92.10
 
   /*
   // Ultimaker
@@ -245,7 +245,7 @@ Here are some standard links for getting your machine calibrated:
 // If your configuration is significantly different than this and you don't understand the issues involved, you probably
 // shouldn't use bed PID until someone else verifies your hardware works.
 // If this is enabled, find your own PID constants below.
-//#define PIDTEMPBED
+#define PIDTEMPBED
 
 //#define BED_LIMIT_SWITCHING
 
@@ -263,9 +263,17 @@ Here are some standard links for getting your machine calibrated:
 
   //120v 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
+  /*
   #define  DEFAULT_bedKp 10.00
   #define  DEFAULT_bedKi .023
   #define  DEFAULT_bedKd 305.4
+  */
+
+    // mein MK2 (60°C)
+   #define  DEFAULT_bedKp 317.13
+   #define  DEFAULT_bedKi 62.04
+   #define  DEFAULT_bedKd 405.29
+
 
   //120v 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
